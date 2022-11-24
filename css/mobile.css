@@ -1,0 +1,247 @@
+@media screen and (max-width:768px){ 
+  /* 장치가 스크린이고 화면너비가 최대768px일때(768px이하) 스타일적용 */
+  header{
+  width: calc(100% - 20px);
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  }
+  header ul{
+  display: none;
+  }
+  header > a{
+  display: none;
+  }
+  header > a:nth-of-type(1){
+  display: none;  
+  }
+  header > a:nth-of-type(2){
+  display: block;
+  }
+  /* 타이틀 */
+  div#title{  
+  }
+  div#title .in{
+  width: calc(100% - 20px);
+  margin-left: 10px;
+  height: auto;
+  padding: 0;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 180px;
+  }
+  div#title .in::after{
+    
+  position: static; /* position 초기화명령(poisition안준상태로 되돌림) */
+  width: 390px;
+  height: 313px;
+  }
+  div#title h2{
+    
+  font-size: 20px;
+  }
+  div#title h2 + p{
+  line-height: 2.5;
+  font-size: 40px;
+  }
+  div#title h2 + p + p{
+    
+  }
+  div#title a{
+  padding: 27px;
+  margin-top: 30px;
+  }
+  
+  /* section */
+  section{  
+  width: calc(100% - 20px);
+  margin-left: 10px;
+  margin-right: 10px;
+  }
+  section#about{
+    
+  }
+  section#about .company{
+    
+  /*! display: flex; */
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-bottom: 25px;
+  }
+  section#about .company div:first-child{
+    
+  width: auto;
+  align-items: center;
+  }
+  section#about .company .subject{
+    
+  }
+  section#about .company h2 + p{   
+  font-size: 19px;
+  text-align: center;
+  }
+  section#about .company h2 + p span{
+    
+  }
+  section#about .company h2 + p + p{
+    
+  text-align: center;
+  }
+  section#about .company .go{
+    
+  position: absolute;
+  bottom: 0;
+  }
+  section#about .company span.control{
+    
+  position: absolute;
+  bottom: 8%;
+  }
+  section#about .company span.control button.prev{
+    
+  }
+  section#about .company span.control button.next{
+    
+  }
+  section#about .company div:first-child + div{
+  width: 90%;
+  }
+  
+  /* 서비스 */
+  #service{
+    
+  }
+  #service .wrap{
+    
+  }
+  #service .wrap h2.subject{
+    
+  }
+  #service .wrap .p{
+    
+  }
+  #service .wrap h2 + .p{
+    
+  }
+  #service .wrap ul{  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+  }
+  #service .wrap ul li{
+    
+  width: calc(100% - 40px);
+  }
+  /* 히스토리 */
+  /* history   */
+
+  #history .wrap{
+  width: 100%;
+  background-position-y: bottom;
+  background-origin: padding-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: none;
+  }
+  #history .wrap hgroup h2{
+  margin: 0 auto;
+  }
+  #history .wrap hgroup h3{
+  text-align: center;
+  line-height: 2.0;
+  }
+  #history .wrap ul.list{
+  width: 65%;
+  }
+
+  
+  /* 찾아오시는 길 */
+  section#location{
+    
+  }
+  section#location .wrap{
+    
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding-bottom: 160px;
+  flex-direction: column-reverse;
+  }
+  section#location .wrap iframe{    
+  font-size: 12px;
+  width: 55%;
+  margin: 40px auto;
+  }
+  section#location .wrap .right{
+    
+  text-align: center;
+  }
+  section#location .wrap .right hgroup{
+    
+  }
+  section#location .wrap .right a{
+  position: absolute;
+  bottom: 100px;
+  /*! right: 110px; */
+  display: block;
+  left: calc(50% - 103px);
+  }
+  /* footer */
+  footer{
+    
+  }
+  footer .wrap{
+    
+  width: calc(100% - 20px);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+  }
+  footer .wrap h1{
+    
+  }
+  footer .wrap h1 a{
+    
+  }
+  footer .wrap address{
+    
+  text-align: center;
+  font-size: 13px;
+  line-height: 1.5;
+  }
+  footer .wrap address strong{
+    
+  }
+  footer .wrap p.copyright{    
+  position: static;
+  margin: 15px auto;
+  text-align: center;
+  font-size: 13px;
+  }
+  footer .wrap p.tel{
+    
+  margin-top: 50px;
+  }
+  footer .wrap p.tel strong{
+    
+  font-size: 40px;
+  }
+  footer .wrap address strong:nth-child(n+2){
+    
+  }
+  footer .wrap address strong:nth-child(n+3){
+    
+  }
+  .block{
+    display: block;    
+  }
+  
+}
